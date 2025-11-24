@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Year Crossword</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #c1272d;
+    }
+    .crossword {
+      display: inline-block;
+      margin: 20px auto;
+    }
+    .crossword table {
+      border-collapse: collapse;
+    }
+    .crossword td {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #333;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: #fff;
+    }
+    .black {
+      background-color: #000;
+    }
+    .clues {
+      margin-top: 20px;
+      text-align: left;
+      display: inline-block;
+    }
+    .clues h2 {
+      color: #2e8b57;
+    }
+    .clue {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 New Year Crossword 🎄</h1>
+
+  <!-- Кроссворд -->
+  <div class="crossword">
+    <table>
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td>C</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td>A</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td>S</td>
+        <td>N</td>
+        <td>O</td>
+        <td>W</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td>E</td>
+        <td class="black"></td>
+        <td>L</td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td>L</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td>T</td>
+        <td>R</td>
+        <td>E</td>
+        <td>E</td>
+        <td class="black"></td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td>G</td>
+        <td>I</td>
+        <td>F</td>
+        <td>T</td>
+        <td class="black"></td>
+        <td class="black"></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Подсказки -->
+  <div class="clues">
+    <h2>Clues:</h2>
+    <div class="clue"><strong>Across:</strong></div>
+    <div class="clue">3. White flakes that fall in winter (4 letters)</div>
+    <div class="clue">6. Decorated evergreen for Christmas (4 letters)</div>
+    <div class="clue">7. Present you receive during holidays (4 letters)</div>
+    
+    <div class="clue"><strong>Down:</strong></div>
+    <div class="clue">1. Traditional Christmas song (5 letters)</div>
+    <div class="clue">2. French word for Christmas, often seen on cards (4 letters)</div>
+  </div>
+
+</body>
+</html>
